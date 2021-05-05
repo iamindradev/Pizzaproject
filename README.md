@@ -71,12 +71,17 @@ for editing pizza already created
 <br>
 3. Modify setting according to db you're using.
 <br>
+4. For required json read the functions in views.py
 <br>
 <br>
-<h1 align = center> CONGRATULATIONS !! YOUR SETUP IS READY
+<h1 align = center>
+
 <br>
 <br>
 
 ![congrats](https://media.tenor.com/images/48d9965bbaa9eea8818bc842bc149692/tenor.gif)
+
+CONGRATULATIONS !! YOUR SETUP IS READY
+
 
 </h1>

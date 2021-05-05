@@ -79,7 +79,8 @@ DATABASES={
       'ENGINE':'django.db.backends.postgresql_psycopg2',
       'NAME':'pizzaproject',
       'USER':'devendra',
-      'PASSWORD':'Devedra@1',
+      'PASSWORD':'********',
+######## HERE WE SHOULD ALSO PUT OUR SETTINGS TO .gitignore FOR OUR PRIVATE PROJECT ###
       'HOST':'localhost',
       'PORT':'5432',
    }

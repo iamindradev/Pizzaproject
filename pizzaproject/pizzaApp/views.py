@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from pizzaproject.constants_variables import requestMethod,statusCodes
 import json
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 from.models import pizzaDropdown, pizzaCreated
 
 #JSON REQUIRED
@@ -17,6 +17,8 @@ from.models import pizzaDropdown, pizzaCreated
 #     "value":"SQUARE"
 # }
 #this function can also be used for creating or adding new type,size and toppings for pizza
+def Helloworld(request):
+    return HttpResponse("Hello World")
 def createPizzaparameter(request):
     if requestMethod.GET_REQUEST(request):
         if request.GET['request_type']=='getParameter':

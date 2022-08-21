@@ -6,5 +6,8 @@ pipeline{
                 echo "heloo"
             }
         }
+        post{
+            echo "I'm updated"
+        }
     }
 }
